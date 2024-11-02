@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 7em 3.25em;
+    font-family: 'Inter', sans-serif;
+    background-color: #1F2937;
+    color: white;
+}
+
+/* Tyography */
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 750;
+}
+
+h1 span {
+    color: #4ADF86;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #D5D4D8;
+}
+
+/* Layout */
+header {
+    margin-bottom: 3.25em;
+}
+
+h1 {
+    max-width: 14ch;
+}
+
+.generate {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #2F3E53;
+}
+
+button {
+    background-color: #10B981;
+    border: none;
+    padding: 0.625em 1.25em;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.passwords {
+    padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15ch;
+    height: 1.5em;
+    background-color: #273549;
+    color: #55F991;
+    border-radius: 6px;
+    padding: 0.625em 2.5em;
+}
