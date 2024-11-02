@@ -20,6 +20,13 @@ form.addEventListener('submit', function (e) {
     }
 })
 
+for (let password of passwords) {
+    password.addEventListener('click', function () {
+        const copyText = password.lastChild.textContent
+        navigator.clipboard.writeText(copyText)
+    })
+}
+
 function generatePassword(lenght, filteredArray) {
     let password = ""
     for (let i = 0; i < lenght; i++) {
